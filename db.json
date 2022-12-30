@@ -1,237 +1,409 @@
 {
-    "restaurants": [
-        {
-            "id": 1,
-            "restaunt_name": "Bistro Captain",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food4.jpg",
-            "rating":"4.1"
-        },
-        {
-            "id": 2,
-            "restaunt_name": "Munch Grill ",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food2.jpg",
-            "rating":"4.8"     
-        },
-        {
-            "id": 3,
-            "restaunt_name": "Feast Lounge",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food6.jpg",
-            "rating":"4.1"
-        },
-        {
-            "id": 4,
-            "restaunt_name": "Eatery Hotspot",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food3.jpg",
-            "rating":"4.1"
-        },
-        {   "id": 5,
-            "restaunt_name": "Cuisine Street",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food1.jpg",
-            "rating":"3.75"
-        },
-        {
-            "id": 6,
-            "restaunt_name": "Backyard Bowls",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food5.jpg",
-            "rating":"4.1"
-        },
-        {
-            "id": 7,
-            "restaunt_name": "The Maggie Stop",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/maggie1.jpg",
-            "rating":"4.1"
-        },
-        {
-            "id": 8,
-            "restaunt_name": "Mashoor Chole Bhature",
-            "address": "address line 1, address line 2, Rajkot",
-            "img":"/assets/img/food7.jpg",
-            "rating":"4.5"
-        }
-
-    ],
-    "category":[{
-        "restaurant_id":1,
-        "categoryList":[{
-            "category_id":1,
-            "category_name":"Pizza",
-            "category_img":"/assets/img/cat-pizza.jpg",
-            "foodList":[{
-                "menu_id":1,
-                "menu_name": "Greek Pizza",
-                "price":10,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/pizza1.jpg"
-            },
-            {
-                "menu_id":2,
-                "menu_name": "Chicago Pizza",
-                "price":20,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/pizza2.jpg"
-            },
-            {
-                "menu_id":3,
-                "menu_name": "Pepperoni Pizza",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/pizza3.jpg"
-            }
-        ]
-        },
-        {
-            "category_id": 2,
-            "category_name": "Burger",
-            "category_img":"/assets/img/cat-burger.jpg",
-            "foodList":[{
-                    "menu_id":4,
-                    "menu_name": "The Prime Cheese",
-                    "price":30,
-                    "source_id":1,
-                    "source_name": "swiggy",
-                    "img":"/assets/img/burger1.jpg"
-            },
-            {
-                "menu_id":5,
-                "menu_name": "Gold N' Patty",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/burger2.jpg"
-            },            
-            {
-                "menu_id":6,
-                "menu_name": "Smokin' Cheese",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/burger3.jpg"
-            }
-        ]
-
-        },{
-            "category_id":3,
-            "category_name" : "Drinks",
-            "category_img":"/assets/img/cat-drink.jpg",
-            "foodList":[
-                {
-                    "menu_id":7,
-                    "menu_name": "Orange Appeaser",
-                    "price":30,
-                    "source_id":1,
-                    "source_name": "swiggy",
-                    "img":"/assets/img/drink1.jpg"
-                },            
-                {
-                    "menu_id":8,
-                    "menu_name": "Espresso",
-                    "price":30,
-                    "source_id":1,
-                    "source_name": "swiggy",
-                    "img":"/assets/img/drink2.jpg"
-                },            
-                {
-                    "menu_id":9,
-                    "menu_name": "Dessert Storm",
-                    "price":30,
-                    "source_id":1,
-                    "source_name": "swiggy",
-                    "img":"/assets/img/drink3.jpg"
-                }
-            ]
-        }
-]
+  "users": [
+    {
+      "id": 1,
+      "name": "a"
+    },
+    {
+      "body": "ab",
+      "id": 2
     }
-
-],
-
-    "menu":[
-        {
-            "restaurant_id": "1",
-            "restaunt_name": "Cuisine Street",
-            "foodList":[          
-            {
-                "menu_id":4,
-                "menu_name": "burger1",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/burger1.jpg"
-            },            
-            {
-                "menu_id":5,
-                "menu_name": "burger2",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/burger2.jpg"
-            },            
-            {
-                "menu_id":6,
-                "menu_name": "burger3",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/burger3.jpg"
-            },            
-            {
-                "menu_id":7,
-                "menu_name": "drink1",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/drink1.jpg"
-            },            
-            {
-                "menu_id":8,
-                "menu_name": "drink2",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/drink2.jpg"
-            },            
-            {
-                "menu_id":9,
-                "menu_name": "drink3",
-                "price":30,
-                "source_id":1,
-                "source_name": "swiggy",
-                "img":"/assets/img/drink3.jpg"
-            }
-        ]
-        }
-    ],
-    "source":[{
-        "restaurant_id":1,
-        "menu_id":1,
-        "restaunt_name": "Cuisine Street",
-        "menu_name": "Greek Pizza",
-        "rest_img":"/assets/img/food4.jpg",
-        "menu_img":"/assets/img/pizza1.jpg",
-        "rest_address": "address line 1, address line 2, Rajkot",
-        "sourceList":[
-            {
-            "source_id":1,
-            "source_name": "swiggy",
-            "source_logo":"/assets/img/icons/Swiggy_logo.png",
-            "price": "5"
-        },            {
-            "source_id":2,
-            "source_name": "zomato",
-            "source_logo":"/assets/img/icons/Zomato-logo.png",
-            "price": "3"
-        }
-    ]
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "restaunt_name": "Bistro Captain",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food4.jpg",
+      "rating": "4.1",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
     }]
-
+    },
+    {
+      "id": 2,
+      "restaunt_name": "Munch Grill ",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food2.jpg",
+      "rating": "4.8",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    },
+    {
+      "id": 3,
+      "restaunt_name": "Feast Lounge",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food6.jpg",
+      "rating": "4.1",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    },
+    {
+      "id": 4,
+      "restaunt_name": "Eatery Hotspot",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food3.jpg",
+      "rating": "4.1",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    },
+    {
+      "id": 5,
+      "restaunt_name": "Cuisine Street",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food1.jpg",
+      "rating": "3.75",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    },
+    {
+      "id": 6,
+      "restaunt_name": "Backyard Bowls",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food5.jpg",
+      "rating": "4.1",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    },
+    {
+      "id": 7,
+      "restaunt_name": "The Maggie Stop",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/maggie1.jpg",
+      "rating": "4.1",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    },
+    {
+      "id": 8,
+      "restaunt_name": "Mashoor Chole Bhature",
+      "address": "address line 1, address line 2, Rajkot",
+      "img": "/assets/img/food7.jpg",
+      "rating": "4.5",
+      "restaurant_reviews": [{
+        "user_id":1,
+        "review":"excellenttttt"
+      },
+     { 
+      "user_id":2,
+      "review":"Good taste"
+    }]
+    }
+  ],
+  "category": [
+    {
+      "restaurant_id": 1,
+      "categoryList": [
+        {
+          "category_id": 1,
+          "category_name": "Pizza",
+          "category_img": "/assets/img/cat-pizza.jpg",
+          "foodList": [
+            {
+              "menu_id": 1,
+              "menu_name": "Greek Pizza",
+              "price": 10,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/pizza1.jpg"
+            },
+            {
+              "menu_id": 2,
+              "menu_name": "Chicago Pizza",
+              "price": 20,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/pizza2.jpg"
+            },
+            {
+              "menu_id": 3,
+              "menu_name": "Pepperoni Pizza",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/pizza3.jpg"
+            }
+          ]
+        },
+        {
+          "category_id": 2,
+          "category_name": "Burger",
+          "category_img": "/assets/img/cat-burger.jpg",
+          "foodList": [
+            {
+              "menu_id": 4,
+              "menu_name": "The Prime Cheese",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/burger1.jpg"
+            },
+            {
+              "menu_id": 5,
+              "menu_name": "Gold N' Patty",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/burger2.jpg"
+            },
+            {
+              "menu_id": 6,
+              "menu_name": "Smokin' Cheese",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/burger3.jpg"
+            }
+          ]
+        },
+        {
+          "category_id": 3,
+          "category_name": "Drinks",
+          "category_img": "/assets/img/cat-drink.jpg",
+          "foodList": [
+            {
+              "menu_id": 7,
+              "menu_name": "Orange Appeaser",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/drink1.jpg"
+            },
+            {
+              "menu_id": 8,
+              "menu_name": "Espresso",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/drink2.jpg"
+            },
+            {
+              "menu_id": 9,
+              "menu_name": "Dessert Storm",
+              "price": 30,
+              "source_id": 1,
+              "source_name": "swiggy",
+              "img": "/assets/img/drink3.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "restaurant_id": "1",
+      "restaunt_name": "Cuisine Street",
+      "foodList": [
+        {
+          "menu_id": 4,
+          "menu_name": "burger1",
+          "price": 30,
+          "source_id": 1,
+          "source_name": "swiggy",
+          "img": "/assets/img/burger1.jpg",
+          "keywords": "burger, cheese burger, vegetable burger"
+        },
+        {
+          "menu_id": 5,
+          "menu_name": "burger2",
+          "price": 30,
+          "source_id": 1,
+          "source_name": "swiggy",
+          "img": "/assets/img/burger2.jpg",
+          "keywords": "burger, combo burger, chhesepull burger"
+        },
+        {
+          "menu_id": 6,
+          "menu_name": "burger3",
+          "price": 30,
+          "source_id": 1,
+          "source_name": "swiggy",
+          "img": "/assets/img/burger3.jpg",
+          "keywords": "burger, cheese burger, spicy burger"
+        },
+        {
+          "menu_id": 7,
+          "menu_name": "drink1",
+          "price": 30,
+          "source_id": 1,
+          "source_name": "swiggy",
+          "img": "/assets/img/drink1.jpg"
+        },
+        {
+          "menu_id": 8,
+          "menu_name": "drink2",
+          "price": 30,
+          "source_id": 1,
+          "source_name": "swiggy",
+          "img": "/assets/img/drink2.jpg"
+        },
+        {
+          "menu_id": 9,
+          "menu_name": "drink3",
+          "price": 30,
+          "source_id": 1,
+          "source_name": "swiggy",
+          "img": "/assets/img/drink3.jpg"
+        }
+      ]
+    }
+  ],
+  "source": [
+    {
+      "restaurant_id": 1,
+      "menu_id": 1,
+      "restaunt_name": "Cuisine Street",
+      "menu_name": "Greek Pizza",
+      "rest_img": "/assets/img/food4.jpg",
+      "menu_img": "/assets/img/pizza1.jpg",
+      "rest_address": "address line 1, address line 2, Rajkot",
+      "sourceList": [
+        {
+          "source_id": 1,
+          "source_name": "swiggy",
+          "source_logo": "/assets/img/icons/Swiggy_logo.png",
+          "price": "5"
+        },
+        {
+          "source_id": 2,
+          "source_name": "zomato",
+          "source_logo": "/assets/img/icons/Zomato-logo.png",
+          "price": "3"
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "name": "offer1",
+      "restaurant_id": 1,
+      "menu_id": 1,
+      "original_price": "100",
+      "discount": "10%",
+      "final_amout": "₹90"
+    },
+    {
+      "name": "buy above 499 and get 10% off",
+      "restaurant_id": "1",
+      "menu_id": "1",
+      "original_price": "500",
+      "discount": "10",
+      "final_amount": "450",
+      "id": 2
+    },
+    {
+      "name": "charmi",
+      "restaurant_id": "1",
+      "menu_id": "1",
+      "original_price": "500",
+      "discount": "10",
+      "final_amount": "450",
+      "id": 3
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "user_name": "User 1",
+      "user_profile": "/assets/img/user1.jpg",
+      "duration": "25",
+      "rating": 3.5,
+      "review": "Best ever webite with good offers!!"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "user_name": "User 2",
+      "user_profile": "/assets/img/user2.jpg",
+      "duration": "54",
+      "rating": 4.5,
+      "review": "This is the best website I have found so far for comparing each product. Also, they provide good offers too. "
+    },
+    {
+      "rating": "5.00",
+      "user_name": "User 3",
+      "user_profile": "/assets/img/user5.jpg",
+      "review": " excellenttttt",
+      "id": 3
+    },
+    {
+      "rating": "2.00",
+      "user_name": "User 4",
+      "user_profile": "/assets/img/user3.jpg",
+      "review": "test",
+      "id": 4
+    },
+    {
+      "rating": "3.00",
+      "user_name": "User 5",
+      "user_profile": "/assets/img/user4.jpg",
+      "review": " very good website.. loved it",
+      "id": 5
+    },
+    {
+      "rating": "3.00",
+      "user_name": "User 6",
+      "user_profile": "/assets/img/user5.jpg",
+      "review": " very bad website, it is fraud",
+      "id": 6
+    }
+  ],
+  "contactusQueries": [
+    {
+      "id": 1,
+      "full_name": "A",
+      "email_address": "a@b.com",
+      "message": "test message"
+    },
+    {
+      "full_name": "abc",
+      "email_address": "xyz",
+      "message": "hello, test",
+      "id": 2
+    }
+  ]
 }
